@@ -1,0 +1,127 @@
+header{
+    display: inline;
+    padding-top: 20px !important;
+}
+
+#logo{
+    padding-top: 20px;
+    border-radius: 20px;
+    border:1px solid black;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+#logo:hover{
+    background-color: #b1ddf1;
+}
+img{
+    height: 150px;
+    width: 370px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+nav{
+    background-color: black;
+    color: white;
+    width: 550px;
+    height: 50px;
+    border-radius: 20px;
+    margin:auto;
+    align-items: center;
+    align-content: center;
+}
+nav:hover{
+    background-color:  #fccb06;
+}
+ul{
+    display: flex;
+    margin: auto;
+    margin-left: 50px;
+}
+li{
+    display: flex;
+    padding: 20px;
+    margin-top: 0;
+}
+li:hover{
+    background-color: #b1ddf1;
+    color: black;
+    height: auto;
+}
+.col-10{
+    background-image: url(pexels-dzenina-lukac-1583884.jpg);
+    height: 150px;
+    width: 100%px !important;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(5px);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+}
+.col-10 p,h1{
+    color: white !important;
+    margin-top: 20px;
+   
+}
+
+.row{
+    margin-bottom: 30px;
+    
+}
+.col-sm-3 {
+    height: 400px;
+    margin: 20px;
+    margin-top: 50px;
+}
+.card{
+    height: 450px !important;
+    width: 320px;
+    background-color:rgba(244,229,214,255);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card:hover{
+    background-color:yellowgreen;
+    color: white;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+#timings{
+    margin-left: 30px;
+}
+footer{
+    margin-top: 100px;
+}
+.col-6{
+    margin-top: 50px;
+}
+.col-6 img{
+    display: inline !important;
+    float: left;
+    height: 80px;
+    width: 50px;
+}
+.col-6 h6{
+    float: right;
+}
+hr{
+    height: 2px;
+}
+.card a{
+    text-decoration: none;
+}
+.card img{
+    border-radius: 20px;
+}
+
